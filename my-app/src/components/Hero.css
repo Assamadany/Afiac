@@ -6,6 +6,16 @@
 .hero-student {
   width: 100px;
   height: 50px;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 .hero-img {
   width: 300px;
@@ -19,6 +29,7 @@
   position: relative;
   top: -250px;
   right: -250px;
+  animation: bounce 2s infinite;
 }
 .hero-heading {
   font-weight: 700;
