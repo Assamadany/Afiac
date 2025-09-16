@@ -1,0 +1,145 @@
+.scalloped {
+  background-color: white;
+}
+.home {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: 500;
+}
+.home:hover {
+  text-decoration: none;
+}
+.navbar-nav {
+  gap: 40px;
+  text-decoration: none;
+}
+.signup {
+  border: 2px solid;
+  border-image: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%) 1;
+  border-radius: 10px !important;
+  width: 80px;
+  background-color: transparent;
+  padding: 6px 10px;
+  font-weight: 500;
+}
+.signup:hover {
+  /* background-color: #99e39e; */
+  color: #000510;
+}
+.textlink {
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  -webkit-background-clip: text; /* makes gradient apply to text */
+  -webkit-text-fill-color: transparent; /* text is transparent to show gradient */
+  background-clip: text;
+  text-fill-color: transparent;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 0;
+  /* font-weight: 500; */
+}
+.textlink:hover {
+  color: black;
+  text-decoration: none;
+}
+#btn {
+  background-color: #99e39e;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  color: #ffffff;
+  padding: 8px 0;
+  font-weight: 500;
+}
+#signup2 {
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  color: #ffffff;
+  padding: 8px 0;
+  font-weight: 500;
+}
+#signup2:hover {
+  background-color: transparent;
+  color: #99e39e;
+  border: 1px solid #99e39e;
+}
+#btn:hover {
+  border: 1px solid #99e39e;
+  border-radius: 5px;
+  color: #99e39e;
+  width: 80px;
+  background-color: transparent;
+  padding: 8px 0;
+  font-weight: 500;
+}
+.text {
+  color: #000510db;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 0;
+  /* font-weight: 500; */
+}
+.text:hover {
+  color: #99e39e;
+  text-decoration: none;
+}
+
+/* Responsive .Nav-btn for screens smaller than 600px */
+@media (max-width: 600px) {
+  .contact-btn {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* For screens smaller than 600px */
+
+  .navbar-nav {
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .scalloped {
+    height: 100%;
+    /* background-color: black; */
+    /* margin-bottom: 50px; */
+  }
+  .Nav-btn {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .btn-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .signup {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .toggle {
+    border: 2px solid #99e39e;
+  }
+  #btn {
+    width: 100%;
+    margin-top: 10px;
+    color: #000510;
+  }
+  #signup2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #signup2 :hover {
+    width: 100%;
+    color: black;
+  }
+}

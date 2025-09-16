@@ -1,0 +1,115 @@
+.text {
+  font-weight: 700;
+  font-size: 40px;
+}
+.courses-search {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 40%;
+}
+.courses-input {
+  width: 50%;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #eee6e6;
+  margin-left: -140px;
+}
+.search {
+  border: none;
+  padding: 10px 30px;
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.courses-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.benefit {
+  color: tomato;
+}
+.courses-img {
+  width: 470px;
+  height: 470px;
+  border: 2px dotted tomato;
+  border-radius: 90px;
+}
+.image {
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+}
+.degree {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cap {
+  width: 60px;
+  height: 60px;
+}
+.sub-title {
+  font-size: 28px;
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .courses-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .courses-img {
+    width: 300px;
+    height: 300px;
+  }
+  .courses-img {
+    width: 300px;
+    height: 300px;
+    border: 2px dotted tomato;
+    border-radius: 60px;
+  }
+  .image {
+    width: 280px;
+    height: 280px;
+  }
+  .text {
+    font-size: 25px;
+    /* width: 300px; */
+    margin-left: -60px;
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    font-weight: 600;
+    /* line-height: 30px; */
+    padding: 0 20px;
+  }
+  .courses-input {
+    width: 70%;
+    margin-left: -100px;
+    height: 35px;
+  }
+  .courses-search {
+    /* padding-left: 20%; */
+    margin-top: 10px;
+  }
+  .hero-border {
+    width: 250px;
+    height: 250px;
+  }
+  .hero-img-sec-color {
+    width: 230px;
+    height: 230px;
+  }
+  .hero-companies {
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+  }
+}

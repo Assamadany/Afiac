@@ -1,0 +1,115 @@
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-student {
+  width: 100px;
+  height: 50px;
+}
+.hero-img {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: -50px;
+}
+.hero-online {
+  width: 120px;
+  height: 70px;
+  position: relative;
+  top: -250px;
+  right: -250px;
+}
+.hero-heading {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+.hero-para {
+  font-weight: 400;
+}
+.hero-btn {
+  border: none;
+  padding: 10px 30px;
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.hero-border {
+  border: 3px dotted #ff6b01;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img-sec-color {
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: relative;
+}
+.hero-companies-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -8px;
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+}
+.hero-companies {
+  width: 150px;
+  height: 50px;
+  margin: 0 50px;
+}
+@media (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero-img {
+    width: 250px;
+    height: 300px;
+    top: -20px;
+  }
+  .hero-para {
+    font-size: 10px;
+  }
+  .hero-online {
+    width: 100px;
+    height: 60px;
+    top: -200px;
+    right: -150px;
+  }
+  .hero-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-border {
+    width: 300px;
+    height: 300px;
+  }
+  .hero-img-sec-color {
+    width: 280px;
+    height: 280px;
+  }
+  .hero-companies {
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+  }
+  .hero-companies-section {
+    margin-top: 12%;
+    /* padding: 10px 0;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;  */
+    /* -ms-overflow-style: none; For Internet Explorer and Edge */
+  }
+}

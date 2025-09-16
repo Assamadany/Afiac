@@ -1,0 +1,38 @@
+.footer-text {
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  margin-top: 10%;
+  /* padding: 2% 0; */
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+.footer-content {
+  text-align: center;
+  color: white;
+}
+.footer-design {
+  background: linear-gradient(39.29deg, #f05901 19.34%, #007bff 80.66%),
+    linear-gradient(90deg, #ff6600 0%, #009dff 100%);
+  margin-top: 1%;
+  /* padding: 2% 0; */
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 1rem;
+    padding: 3% 0;
+  }
+  .footer-design {
+    font-size: 1rem;
+    padding: 3% 0;
+  }
+}
